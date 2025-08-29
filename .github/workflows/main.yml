@@ -55,7 +55,7 @@ jobs:
              password: ${{ secrets.EMAIL_PASSWORD }}
              subject: API Test report
              to: yogita.daurby@gmail.xcom
-             from: ${{ secrets.EMAIL.USERNAME }}
+             from: ${{ secrets.EMAIL_USERNAME }}
              body : | 
                     Hi ,the report has beed uploaded and url 
                     is: https://github.com/yogitadaurby-sys/Phoenix-In-warranty-Flow
