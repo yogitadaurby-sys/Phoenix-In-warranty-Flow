@@ -54,7 +54,7 @@ jobs:
              username: ${{ secrets.EMAIL_USERNAME }}
              password: ${{ secrets.EMAIL_PASSWORD }}
              subject: API Test report
-             to: yogita.daurby@gmail.xcom
+             to: yogita.daurby@gmail.com
              from: ${{ secrets.EMAIL_USERNAME }}
              body : | 
                     Hi ,the report has beed uploaded and url 
