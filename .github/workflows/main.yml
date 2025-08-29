@@ -45,3 +45,23 @@ jobs:
             github_token: ${{ secrets.GITHUB_TOKEN }}
             publish_dir: newman
             
+        - name : Send email notification
+          if : always ()
+          uses: dawidd6/action-send-mail@v6
+          with:
+             server_address: smtp.gmail.com
+             server_port: 465
+             username: ${{ secrets.EMAIL_USERNAME }}
+             password: ${{scertes.EMAIL_PASSWORD }}
+             subject: API Test report
+             to: yogita.daurby@gmail.xcom
+             from: ${{ scretes.EMAIL.USERNAME }}
+             body : | 
+                  Hi ,the report has beed uploaded and url 
+                  is: https://github.com/yogitadaurby-sys/Phoenix-In-warranty-Flow
+                  
+                   
+             
+             
+          
+            
