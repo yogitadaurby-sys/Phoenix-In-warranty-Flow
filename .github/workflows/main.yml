@@ -58,8 +58,7 @@ jobs:
              from: ${{ secrets.EMAIL_USERNAME }}
              body : | 
                     Hi ,the report has beed uploaded and url 
-                    is: https://github.com/yogitadaurby-sys/Phoenix-In-warranty-Flow
-                  
+                    is: https://yogitadaurby-sys.github.io/Phoenix-In-warranty-Flow/
                    
              
              
