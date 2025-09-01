@@ -8,7 +8,7 @@ on:
     - cron : 30 15 * * * # 730 pm MUT Every DAY
 jobs:
     run-postman-tests:
-      runs-on: ec2 github runner
+      runs-on: ubuntu-latest
 
       steps :
         - name : Check out the code
